@@ -1,0 +1,39 @@
+.yari-form-error{
+    color: black;
+    background: white;
+    font-size: 17px;
+    padding: 3px;
+    border-right: 3px solid #f00000;
+    direction: rtl;
+    text-align: right;
+}
+.yari-form-success{
+    color: black;
+    background: white;
+    font-size: 17px;
+    padding: 3px;
+    border-right: 3px solid #02d906;
+    direction: rtl;
+    text-align: right;
+}
+
+
+.yari-form{
+    direction: rtl;
+    text-align: right;
+}
+
+.yari-form table{
+    width: 100%;
+}
+
+.yari-form input, .yari-form textarea{
+    width: 60%;
+}
+
+.yari-form button{
+    border: none;
+    background: #222;
+    color: #ff9907;
+    padding: 3px 8px;
+}

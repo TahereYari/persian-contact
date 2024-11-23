@@ -1,0 +1,26 @@
+#user_messages{
+    border-collapse: collapse;
+    width: 90%;
+    margin-top: 10px;
+}
+
+#user_messages td , #user_messages th{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#user_messages tr:nth-child(odd){
+    background-color: #ffffff;
+}
+
+#user_messages tr:hover {
+    background-color: #ddd;
+    cursor:pointer
+}
+
+#user_messages tr:first-child{
+    background-color: rgb(201, 6, 6);
+    text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+}
